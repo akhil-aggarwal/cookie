@@ -6,11 +6,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Cookie Demonstration Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <!-- Theme CSS -->
+    <link type="text/css" href="assets/css/material-kit.min.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
+        <div class="container">
+            <a class="navbar-brand" href="" rel="tooltip" title="Designed and Coded by Creative Tim"
+                data-placement="bottom" target="_blank">
+                <img src="assets/img/logo.png" alt="logo" style="width: 150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+
+                <ul class="navbar-nav ms-auto">
+                    <button class="btn bg-gradient-primary mb-0">Home</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+    <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
+    <section class="py-7" id="home-sec-1">
+        <div class="container">
+            <div class="row">
+                <h2 class="mb-5">Hey Akhil, Have a look at Cookies!</h2>
+                <div class="col-lg-6 my-auto">
+
+                    <h3>What are Internet Cookies ?</h3>
+                    <p class="pe-5">Cookies (also known as internet cookies, web cookies, browser cookies or HTTP
+                        cookies) are small
+                        pieces of information in the form of a text file, containing a string of letters and numbers.
+                        This
+                        file is sent from a website to the person’s browser where they get saved before going back to
+                        the
+                        same website.</p>
+
+                    <a href="javascript:;" class="text-primary icon-move-right">More about us
+                        <i class="fas fa-arrow-right text-sm ms-1"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
+                    <div class="p-3 info-horizontal">
+                        <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
+                            <i class="fa fa-history opacity-10"></i>
+                        </div>
+                        <div class="description ps-3">
+                            <p class="mb-0">It is used to make User Experience Better.<br>By keeping a record of data
+                                submitted by user.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-3 info-horizontal">
+                        <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
+                            <i class="fa fa-hdd-o opacity-10"></i>
+                        </div>
+                        <div class="description ps-3">
+                            <p class="mb-0">Used to decrease Web Server storage by <br>storing user data on users
+                                computer only.</p>
+                        </div>
+                    </div>
+                    <div class="p-3 info-horizontal">
+                        <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
+                            <i class="fa fa-shield opacity-10"></i>
+                        </div>
+                        <div class="description ps-3">
+                            <p class="mb-0">Usually cookie are safe to use. <br> But beware from malicious cookies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
+
+    <section class="py-7" id="home-sec-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Lets get started with Cookies</h2>
+                    <p>Fill out the complete form to make a cookie with the given information. After submitting the form
+                        notice the changes in the website.<br> We will use the information provided by you to change the
+                        your Experience with this website.</p>
+
+                    <section>
+                        <div class="container py-4">
+                            <div class="row">
+                                <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+                                    <form role="form" id="contact-form" method="post" autocomplete="off">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6 ps-2">
+                                                    <div class="input-group input-group-dynamic mb-4">
+                                                        <label class="form-label">First Name</label>
+                                                        <input class="form-control" aria-label="First Name..."
+                                                            type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ps-2">
+                                                    <div class="input-group input-group-dynamic">
+                                                        <label class="form-label">Last Name</label>
+                                                        <input type="text" class="form-control" placeholder=""
+                                                            aria-label="Last Name...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row mt-4">
+                                                <div class="col-md-6 ps-2">
+                                                    <div class="input-group input-group-dynamic mb-4">
+                                                        <label class="form-label">E-Mail</label>
+                                                        <input class="form-control" aria-label="Email..." type="email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ps-2">
+                                                    <div class="input-group input-group-dynamic">
+                                                        <label class="form-label">Age</label>
+                                                        <input type="number" class="form-control" placeholder=""
+                                                            aria-label="Age...">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-check form-switch mb-4 d-flex align-items-center">
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <button type="submit"
+                                                        class="btn bg-gradient-primary w-100">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-gradient-primary" id="footer">
+        <div class="container">
+        <p style="padding-top: 10px;">Made with <i class="fa fa-heart"></i> Akhil Aggarwal</p>
+        </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/plugins/perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="assets/js/plugins/moment.min.js"></script>
+    <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="assets/js/plugins/nouislider.min.js"></script>
+    <!--  Plugin for the Carousel, full documentation here: http://jedrzejchalubek.com/  -->
+    <script src="assets/js/plugins/glidejs.min.js"></script>
+    <!--	Plugin for Select, full documentation here: https://joshuajohnson.co.uk/Choices/ -->
+    <script src="assets/js/plugins/choices.min.js" type="text/javascript"></script>
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Control Center for Material Kit parallax effects, scripts for the example pages etc -->
+    <script src="assets/js/material-kit.min.js" type="text/javascript"></script>
 
 </body>
 
