@@ -1,0 +1,24 @@
+body
+            {
+                overflow: hidden;
+            }
+.leftrow
+{
+    margin: 150px 0px;
+}
+
+.uc-para{
+    width: 350px;
+}
+
+.footer{
+
+    background-color: cornflowerblue; 
+    text-align: center; 
+    color: white;
+}
+
+.image-box
+{
+    background-image: url(assets/image/underConst.png);
+}
