@@ -114,20 +114,19 @@
                         <div class="container py-4">
                             <div class="row">
                                 <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
-                                    <form role="form" id="contact-form" method="post" autocomplete="off">
+                                    <form role="form" id="contact-form" autocomplete="off">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic mb-4">
                                                         <label class="form-label">First Name</label>
-                                                        <input class="form-control" aria-label="First Name..."
-                                                            type="text">
+                                                        <input id="fNameInput" class="form-control" type="text">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic">
                                                         <label class="form-label">Last Name</label>
-                                                        <input type="text" class="form-control" placeholder=""
+                                                        <input id="lNameInput" type="text" class="form-control" placeholder=""
                                                             aria-label="Last Name...">
                                                     </div>
                                                 </div>
@@ -137,13 +136,13 @@
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic mb-4">
                                                         <label class="form-label">E-Mail</label>
-                                                        <input class="form-control" aria-label="Email..." type="email">
+                                                        <input id="emailInput" class="form-control" aria-label="Email..." type="email">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic">
                                                         <label class="form-label">Age</label>
-                                                        <input type="number" class="form-control" placeholder=""
+                                                        <input id="ageInput" type="number" class="form-control" placeholder=""
                                                             aria-label="Age...">
                                                     </div>
                                                 </div>
@@ -151,13 +150,7 @@
 
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <div class="form-check form-switch mb-4 d-flex align-items-center">
-
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <button type="submit"
-                                                        class="btn bg-gradient-primary w-100">Submit</button>
+                                                    <input type="button" value="Submit" onclick="cookieFunction()" id="submitCookieData" class="btn bg-gradient-primary w-50 mt-4">
                                                 </div>
                                             </div>
                                         </div>
@@ -240,6 +233,7 @@
     <!--Footer Section End-->
 
     <!--   Core JS Files   -->
+    
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
     <script src="script.js" type="text/javascript"></script>
     <script src="assets/js/core/popper.min.js" type="text/javascript"></script>

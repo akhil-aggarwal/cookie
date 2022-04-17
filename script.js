@@ -1,19 +1,29 @@
 console.log('Hey Script is working');
-var firstName = 'Yoyo';
-var lastName = 'Momo';
-var eMail = 'Yomo@moyo.com';
-var age = 18;
+const data = [ ];
 
-Cookies.set('FName', firstName, {
+function cookieFunction()
+{   
+    data[0] = document.getElementById('fNameInput').value;
+    data[1] = document.getElementById('lNameInput').value;
+    data[2] = document.getElementById('emailInput').value;
+    data[3] = document.getElementById('ageInput').value;
+
+    return data;
+    
+}
+
+cookieFunction();
+
+Cookies.set('FName', data[0], {
     expires: 10
 })
-Cookies.set('LName', lastName, {
+Cookies.set('LName', data[1], {
     expires: 10
 })
-Cookies.set('Email', eMail, {
+Cookies.set('Email', data[2], {
     expires: 10
 })
-Cookies.set('Age', age, {
+Cookies.set('Age', data[3], {
     expires: 10
 })
 
@@ -22,7 +32,7 @@ var cLName = Cookies.get('LName');
 var cEmail = Cookies.get('Email');
 var cAge = Cookies.get('Age');
 
-if ( Cookies.get('FName') != null && firstName != undefined ) {
+if ( Cookies.get('FName') != null && data[0] != undefined ) {
 
     document.getElementById('startStr').innerHTML = "Hey " + cFName + ", Have a Look at Cookies!";
     document.getElementById('resultName').innerHTML = cFName+ ',';
@@ -46,4 +56,9 @@ if ( Cookies.get('FName') != null && firstName != undefined ) {
      document.getElementById("textFormFilled").innerHTML = "You will get your cookie results here.<br> Please fill form to proceed."
      document.getElementById("formFilled").style.visibility = "hidden";
  }
+
+
+
+
+
 
