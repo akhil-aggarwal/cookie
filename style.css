@@ -1,24 +1,28 @@
-body
-            {
-                overflow: hidden;
-            }
-.leftrow
+#home-cookie
 {
-    margin: 150px 0px;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 20%;
 }
 
-.uc-para{
-    width: 350px;
+#home-sec-1
+{
+    background-color: #fcf0d0;
 }
 
-.footer{
+#home-sec-2
+{
+    text-align: center;
+}
 
-    background-color: cornflowerblue; 
-    text-align: center; 
+#footer
+{
+    text-align: center;
     color: white;
+    height: 50px;
 }
 
-.image-box
+.text-color-primary
 {
-    background-image: url(assets/image/underConst.png);
+    color: #e91e63;
 }
