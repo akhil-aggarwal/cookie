@@ -43,3 +43,5 @@ function printValues(_printData)
         document.getElementById("formFilled").style.visibility = "hidden";
     }
 }
+
+document.addEventListener('DOMContentLoaded', setValues);
