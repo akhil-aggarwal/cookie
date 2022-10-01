@@ -53,3 +53,12 @@ function preLoader(){
     $("#preloader").delay(2000).fadeOut(1000);
     $('body').removeClass('loading');
   }
+
+//   variable and function with event Listener for when user clicks logo
+  const scrollToTop = document.querySelector('#scrollToTop');
+
+  scrollToTop.addEventListener('click', goingUp)
+
+  function goingUp() {
+    window.scrollTo(0,0);
+  }
