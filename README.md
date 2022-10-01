@@ -1,4 +1,4 @@
-<p align="center"><img width="70%" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg"/></p>
+<p align="center"><img width="70%" src="https://www.jenkins.io/images/hacktoberfest/hacktoberfest_2022.svg"/></p>
 
 <h1>
  ⭐️ JavaScript Cookie Demo ⭐️
@@ -68,7 +68,7 @@ Click on the link to register yourself [here](https://hacktoberfest.digitalocean
 
 ## CONTRIBUTING
 
-Please refer [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) to check our policies and practices.
+Please refer [CONTRIBUTIONS.md](./CONTRIBUTING.md) to check our policies and practices.
 
 We welcome first time contributors and open source enthusiasts. Check out our issues and if you are willing to start with something simple check issues marked with the good-first-issue tag.
 
