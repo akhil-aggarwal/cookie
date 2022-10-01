@@ -1,6 +1,7 @@
-<p align="center"><img width="70%" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg"/></p>
-
-<h1>
+<p align="center"><img width="40%" src="https://www.jenkins.io/images/hacktoberfest/hacktoberfest_2022.svg"/></p>
+<br>
+<br>
+<h1 align="center">
  ⭐️ JavaScript Cookie Demo ⭐️
 </h1>
 This is a website that is used to demonstrate the working of Client-Set Cookies made using JavaScript.
@@ -68,7 +69,7 @@ Click on the link to register yourself [here](https://hacktoberfest.digitalocean
 
 ## CONTRIBUTING
 
-Please refer [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) to check our policies and practices.
+Please refer [CONTRIBUTIONS.md](./CONTRIBUTING.md) to check our policies and practices.
 
 We welcome first time contributors and open source enthusiasts. Check out our issues and if you are willing to start with something simple check issues marked with the good-first-issue tag.
 
