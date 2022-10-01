@@ -23,7 +23,18 @@ Team working with a lot of folks which is very good for the growth 📈 of the p
 - Just make sure that you push only the files that you have worked upon.
 - ## Demo
 
-Check out the web app: [https://akhil-aggarwal.github.io/cookie/](https://akhil-aggarwal.github.io/cookie/)
+Check out the website: [https://akhil-aggarwal.github.io/cookie/](https://akhil-aggarwal.github.io/cookie/)
+
+
+## Tech stack
+
+![HTML5](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SCSS](https://img.shields.io/badge/scss-%231572B6.svg?style=for-the-badge&logo=scss3&logoColor=white)
+![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScirpt-305FCB?style=for-the-badge&logo=JavaScript&logoColor=white)
+![Json](https://img.shields.io/badge/Json-305FCB?style=for-the-badge&logo=Json&logoColor=white)
+
 
 # Your First Contribution
 Is this your first time contributing to an open source project? If yes, Welcome!!✨🎉💃🏾 Here is a [great tutorial](https://app.egghead.io/playlists/how-to-contribute-to-an-open-source-project-on-github) on how to contribute to an open source project.
@@ -121,4 +132,22 @@ Hurray!!, we are done with the hard part. Head to github to make the pull reques
 # Code review process
 
 The maintainer of cookie looks at Pull Requests on a regular basis and carries out merging or comments on the requests. You can close a pull request if it isn't showing any activity after two weeks.
+
+# Contributing Guidelines
+
+Any contributions you make are truly appreciated, go to our [CONTRIBUTING.md](https://github.com/rohitdasu/projectmate/blob/main/CONTRIBUTING.md) file for more information.
+
+## Code of Conduct
+
+View [CODE_OF_CONDUCT.md](https://github.com/akhil-aggarwal/cookie/blob/main/CODE_OF_CONDUCT.md)
+
+## License
+
+projectmate is licensed under the MIT License - see the [LICENSE](https://github.com/akhil-aggarwal/cookie/blob/main/LICENSE.md) file for details.
+
+## Thanks to all Contributors
+
+<a href="https://github.com/akhil-aggarwal/cookie/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=akhil-aggarwal/cookie" />
+</a>
 
