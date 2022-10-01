@@ -9,6 +9,7 @@ Finally, we can't wait to see your outstanding issues and pull requests. Welcome
 - Cookies are used to set various text and options in the website
 <br>
 This is a demonstration website on how internet cookies work.
+
 ![Preview](https://user-images.githubusercontent.com/76417084/193393771-b1ce31a6-d39f-4423-bf1a-72b9dcd9ad2d.png)
 Here! we welcome everyone to contriubute to our project. You can contribute in several ways not just in code (E.g. Technical writing , collaborate in developing the website).
 Team working with a lot of folks which is very good for the growth 📈 of the project but most of times can lead to conflicting interests and point of views 👈👉. So , Below are set of rules 📖 that guide you for participating in this project.
