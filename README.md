@@ -63,3 +63,53 @@ Clone the repository you forked above. See below 👇
 ![clone](https://user-images.githubusercontent.com/76417084/193394752-80fbfd80-499a-4477-9c5b-2de1895d2a1f.png)
 
 Using the command below, you can clone the repo.
+```
+git clone https://github.com/akhil-aggarwal/cookie.git
+```
+
+Navigate to the cloned directory using command line. See below 👇
+
+```
+cd cookie
+```
+
+Make a new branch.
+```
+git checkout -b "Your Branch Name"
+```
+
+A good branch name would begin with the issue ticket and the assigned issue. See below 👇
+
+eg..
+```
+// #53 is the issu ticket number and make a request is the assigned issue na
+
+git checkout -b "#53-make a request"
+```
+
+You are all set!! 🍾🎉. You can now make your changes locally. Once you are done making all your changes, you can now push code and make a pull request.
+
+## Steps to making a pull request
+
+You have to switch to the main branch and make sure it's up to date with the amazon's clone main branch. To do so, use the following commands below.
+
+```
+git remote add upstream https://github.com/akhil-aggarwal/cookie.git
+git checkout main
+git pull upstream main
+```
+
+You can now update your branch from your local copy of main, and push it!. See how below. 👇
+
+```
+git add .
+git commit -m "<your commit message>"
+git push origin <name-of-your-branch>
+```
+
+Hurray!!, we are done with the hard part. Head to github to make the pull request Github will check for conflicts and if non is found, you can make the pull request and the mainteners of cookie will review your pull request to have it merged or make a comment on it.
+
+# Code review process
+
+The maintainer of cookie looks at Pull Requests on a regular basis and carries out merging or comments on the requests. You can close a pull request if it isn't showing any activity after two weeks.
+
