@@ -45,3 +45,11 @@ function printValues(_printData)
 }
 
 document.addEventListener('DOMContentLoaded', setValues);
+
+// Preloader Code
+document.addEventListener('load',preLoader())
+
+function preLoader(){
+    $("#preloader").delay(2000).fadeOut(1000);
+    $('body').removeClass('loading');
+  }
