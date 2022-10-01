@@ -1,7 +1,12 @@
 # Contributing to Cookie
 Yes!!, you're here!✨. This is the first step in making your contribution to the amazon clone project. <br> This documentation will serve as a guide for making your contibutions to this project. Follow the steps stated below carefully.
 <br>
+
 Finally, we can't wait to see your outstanding issues and pull requests. Welcome 😇❤
+## Features
+- It prompts the user to enter a few basic details
+- It makes cookies out of the details fetched from the user
+- Cookies are used to set various text and options in the website
 <br>
 This is a demonstration website on how internet cookies work.
 ![Preview](https://user-images.githubusercontent.com/76417084/193393771-b1ce31a6-d39f-4423-bf1a-72b9dcd9ad2d.png)
