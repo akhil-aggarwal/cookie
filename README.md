@@ -14,7 +14,6 @@ Yes!!, you're here!✨. This is the first step in making your contribution to th
 
 Finally, we can't wait to see your outstanding issues and pull requests. Welcome 😇❤
 
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](./CODE_OF_CONDUCT.md) 
 ## Features
 - It prompts the user to enter a few basic details
 - It makes cookies out of the details fetched from the user
