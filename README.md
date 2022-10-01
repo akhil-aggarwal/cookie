@@ -4,20 +4,16 @@
 <h1 align="center">
  ⭐️ JavaScript Cookie Demo ⭐️
 </h1>
+
 # Contribute to cookie
 
+
 This is a website that is used to demonstrate the working of Client-Set Cookies made using JavaScript.
+
 Yes!!, you're here!✨. This is the first step in making your contribution to the cookie project. <br> This documentation will serve as a guide for making your contibutions to this project. Follow the steps stated below carefully.
-<br>
 
 Finally, we can't wait to see your outstanding issues and pull requests. Welcome 😇❤
-=======
 
-<br> 
-
-<br>
-
----
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](./CODE_OF_CONDUCT.md) 
 ## Features
 - It prompts the user to enter a few basic details
