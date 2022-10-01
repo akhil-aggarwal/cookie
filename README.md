@@ -1,3 +1,10 @@
+<p align="center"><img width="40%" src="https://www.jenkins.io/images/hacktoberfest/hacktoberfest_2022.svg"/></p>
+<br>
+<br>
+<h1 align="center">
+ ⭐️ JavaScript Cookie Demo ⭐️
+</h1>
+
 # Contribute to cookie
 Yes!!, you're here!✨. This is the first step in making your contribution to the cookie project. <br> This documentation will serve as a guide for making your contibutions to this project. Follow the steps stated below carefully.
 <br>
