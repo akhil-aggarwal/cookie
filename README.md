@@ -1,4 +1,4 @@
-<p align="center"><img width="70%" src="https://www.jenkins.io/images/hacktoberfest/hacktoberfest_2022.svg"/></p>
+<p align="center" style="margin: 25px"><img width="50%" src="https://www.jenkins.io/images/hacktoberfest/hacktoberfest_2022.svg"/></p>
 
 <h1>
  ⭐️ JavaScript Cookie Demo ⭐️
