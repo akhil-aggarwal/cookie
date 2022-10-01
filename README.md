@@ -1,5 +1,5 @@
-# Contributing to Cookie
-Yes!!, you're here!✨. This is the first step in making your contribution to the amazon clone project. <br> This documentation will serve as a guide for making your contibutions to this project. Follow the steps stated below carefully.
+# Contribute to cookie
+Yes!!, you're here!✨. This is the first step in making your contribution to the cookie project. <br> This documentation will serve as a guide for making your contibutions to this project. Follow the steps stated below carefully.
 <br>
 
 Finally, we can't wait to see your outstanding issues and pull requests. Welcome 😇❤
@@ -17,6 +17,8 @@ Team working with a lot of folks which is very good for the growth 📈 of the p
 - Openess 👐. Collaboration is only possible if everyone is open to share ideas.
 - Respect 👨🏾‍🤝‍👨🏽. Having respect for everyone, their skills and opinions is paramount.
 - Welcoming tone or politeness 😇: It is expected that you interact with others in an optimistic and cheerful manner.
+
+
 # Things to take care while making a PR:
 
 - Don't forget to attach a screenshot of the final output of the work that you have done, and do mention the issue you have worked upon, while making a PR.
@@ -31,7 +33,6 @@ Check out the website: [https://akhil-aggarwal.github.io/cookie/](https://akhil-
 ![HTML5](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SCSS](https://img.shields.io/badge/scss-%231572B6.svg?style=for-the-badge&logo=scss3&logoColor=white)
-![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScirpt-305FCB?style=for-the-badge&logo=JavaScript&logoColor=white)
 ![Json](https://img.shields.io/badge/Json-305FCB?style=for-the-badge&logo=Json&logoColor=white)
 
@@ -135,7 +136,7 @@ The maintainer of cookie looks at Pull Requests on a regular basis and carries o
 
 # Contributing Guidelines
 
-Any contributions you make are truly appreciated, go to our [CONTRIBUTING.md](https://github.com/rohitdasu/projectmate/blob/main/CONTRIBUTING.md) file for more information.
+Any contributions you make are truly appreciated, go to our [CONTRIBUTING.md](https://github.com/akhil-aggarwal/cookie/blob/main/CONTRIBUTING.md) file for more information.
 
 ## Code of Conduct
 
@@ -143,7 +144,7 @@ View [CODE_OF_CONDUCT.md](https://github.com/akhil-aggarwal/cookie/blob/main/COD
 
 ## License
 
-projectmate is licensed under the MIT License - see the [LICENSE](https://github.com/akhil-aggarwal/cookie/blob/main/LICENSE.md) file for details.
+cookie is licensed under the MIT License - see the [LICENSE](https://github.com/akhil-aggarwal/cookie/blob/main/LICENSE.md) file for details.
 
 ## Thanks to all Contributors
 
