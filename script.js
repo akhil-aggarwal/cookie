@@ -54,6 +54,7 @@ function preLoader(){
     $('body').removeClass('loading');
   }
 
+  
 //   variable and function with event Listener for when user clicks logo
   const scrollToTop = document.querySelector('#scrollToTop');
 

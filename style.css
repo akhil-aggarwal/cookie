@@ -44,7 +44,6 @@ to the top */
     background:  #fcf0d0;
 }
 
-#scrollToTop:active {
+#scrollToTop:hover {
     cursor: pointer;
-
 }
