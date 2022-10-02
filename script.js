@@ -1,7 +1,7 @@
 const _printData = [];
 
 function cookieFunction(e) {
-  e.preventDefault();
+ 
   document.activeElement.blur();
 
   Cookies.set("fName", document.getElementById("fNameInput").value);
@@ -9,6 +9,7 @@ function cookieFunction(e) {
   Cookies.set("email", document.getElementById("emailInput").value);
   Cookies.set("age", document.getElementById("ageInput").value);
   setValues();
+  
 }
 
 function setValues() {
