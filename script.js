@@ -20,6 +20,14 @@ function setValues() {
   printValues(_printData);
 }
 
+function resetCookies() {
+  Cookies.remove('fName', { path: '' });
+  Cookies.remove('lName', { path: '' });
+  Cookies.remove('email', { path: '' });
+  Cookies.remove('age', { path: '' });
+  location.reload();
+}
+
 function printValues(_printData) {
   if (_printData[0] != undefined && _printData[0] != null) {
     document.getElementById("startStr").innerHTML =
