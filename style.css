@@ -35,7 +35,15 @@
 {
     color: #e91e63;
 }
-/* .rightshift
-{
-    margin-right: 10px;
-} */
+
+/* container surrounding logo element at bottom of the page for click back
+to the top */
+.container2 {
+    display: flex;
+    justify-content: center;
+    background:  #fcf0d0;
+}
+
+#scrollToTop:hover {
+    cursor: pointer;
+}
