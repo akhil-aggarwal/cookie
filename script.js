@@ -21,11 +21,14 @@ function setValues() {
 }
 
 function resetCookies() {
-  Cookies.remove('fName', { path: '' });
-  Cookies.remove('lName', { path: '' });
-  Cookies.remove('email', { path: '' });
-  Cookies.remove('age', { path: '' });
-  location.reload();
+  let remove = confirm("Remove all the cookies?");
+  if(remove){
+    Cookies.remove('fName', { path: '' });
+    Cookies.remove('lName', { path: '' });
+    Cookies.remove('email', { path: '' });
+    Cookies.remove('age', { path: '' });
+    location.reload();
+  }
 }
 
 function printValues(_printData) {
