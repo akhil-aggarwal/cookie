@@ -190,7 +190,7 @@ Star this repository if you had fun!
 ## Contributors
 - <a href="https://github.com/akhil-aggarwal">Akhil Aggarwal</a>
 - <a href="https://github.com/ArmoryNode">Andy</a>
-
+- <a href="https://github.com/Ankit-11525">Ankit Kumar Pathak </a>
 
 <h2>
  What is Hacktoberfest?
