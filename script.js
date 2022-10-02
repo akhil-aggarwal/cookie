@@ -23,10 +23,10 @@ function setValues() {
 function resetCookies() {
   let remove = confirm("Remove all the cookies?");
   if(remove){
-    Cookies.remove('fName', { path: '' });
-    Cookies.remove('lName', { path: '' });
-    Cookies.remove('email', { path: '' });
-    Cookies.remove('age', { path: '' });
+    Cookies.remove('fName', { path: '/' });
+    Cookies.remove('lName', { path: '/' });
+    Cookies.remove('email', { path: '/' });
+    Cookies.remove('age', { path: '/' });
     location.reload();
   }
 }
