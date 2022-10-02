@@ -42,7 +42,8 @@ Team working with a lot of folks which is very good for the growth 📈 of the p
 
 - Don't forget to attach a screenshot of the final output of the work that you have done, and do mention the issue you have worked upon, while making a PR.
 - Just make sure that you push only the files that you have worked upon.
-- ## Demo
+
+## Demo
 
 Check out the website: [https://akhil-aggarwal.github.io/cookie/](https://akhil-aggarwal.github.io/cookie/)
 
@@ -135,7 +136,11 @@ You have to switch to the main branch and make sure it's up to date with the ama
 
 ```
 git remote add upstream https://github.com/akhil-aggarwal/cookie.git
+```
+```
 git checkout main
+```
+```
 git pull upstream main
 ```
 
@@ -143,7 +148,11 @@ You can now update your branch from your local copy of main, and push it!. See h
 
 ```
 git add .
+```
+```
 git commit -m "<your commit message>"
+```
+```
 git push origin <name-of-your-branch>
 ```
 
