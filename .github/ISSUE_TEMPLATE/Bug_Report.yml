@@ -35,7 +35,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: expectation
     attributes:
       label: "Description"
       description: Please enter an A clear and concise description of what do you think this bug is expected to do
