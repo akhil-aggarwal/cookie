@@ -1,0 +1,102 @@
+name: "Bug Report"
+description: Create a new ticket for a bug.
+title: "[BUG] - <title>"
+labels: [
+  "bug"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an A clear and concise description of your issue
+      placeholder: Clear and concise description of your problem...
+    validations:
+      required: true
+  - type: input
+    id: reprodURL
+    attributes:
+      label: "Reproduction URL"
+      description: Please enter your GitHub URL to provide a reproduction of the issue
+      placeholder: ex. https://github.com/USERNAME/REPO-NAME
+    validations:
+      required: true
+  - type: textarea
+    id: reproductionSteps
+    attributes:
+      label: "Reproduction steps"
+      description: Please enter an explicit description of the issue/bug
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an A clear and concise description of what do you think this bug is expected to do
+      placeholder: Clear and concise description of what the bug will do...
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "Browsers"
+      description: What browsers are you seeing the problem on ?
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - Brave
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What is the impacted environment ?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+        - iOS
+        - Android
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Impacted Information"
+      description: If above Operating System & Browser is not applicable to you then fill the below information
+      value: |
+        Specific Information
+        -  Name of Device e.g. iPhone 12  (This is Mandatory)
+        -  Operating System e.g. iOS8.1
+        -  Browser e.g. Tor, Chromium browser
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context"
+      description: Add any other context or screenshots about the feature request her
+      placeholder: e.g. anything you wish to add which could be helpful
+    validations:
+      required: false    
+    
