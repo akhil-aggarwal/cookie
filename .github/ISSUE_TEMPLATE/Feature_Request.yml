@@ -1,0 +1,51 @@
+name: "💡 Feature Request"
+description: Create a new ticket for a new feature request
+title: "💡 [REQUEST] - <title>"
+labels: [
+  "enhancement"
+]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: "Concise Description"
+      description: write a concise and appropraiate one line description of the feature request or problem you are facing
+      placeholder: Ex. I am always frustrated when ...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Your Solution"
+      description: A clear and concise description of what you want to happen
+      placeholder: e.g. A hypothetical solution where I can type the query and ...
+    validations:
+      required: true       
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives"
+      description: Please enter the alternative solutions you have considered in bullet points
+      value: |
+        Alternative Solutions
+        -  Solution 1
+        -  Solution 2
+        -  so on    
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context"
+      description: Add any other context or screenshots about the feature request her
+      placeholder: e.g. anything you wish to add which could be helpful
+    validations:
+      required: false  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct]()
+      options:
+        - label: I follow [Contributing Guidelines](https://github.com/akhil-aggarwal/cookie/blob/main/CODE_OF_CONDUCT.md) of this project.
+          required: true  
+    
+      

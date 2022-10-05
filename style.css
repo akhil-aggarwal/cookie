@@ -1,28 +1,67 @@
-#home-cookie
-{
+/* Preloader */
+#preloader {
+    background: #ffdecf url('assets/image/cookie-loading.gif') no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+#home-cookie {
     width: 60%;
     margin-left: 15%;
     margin-top: 20%;
 }
 
-#home-sec-1
-{
+#home-sec-1 {
     background-color: #fcf0d0;
 }
 
-#home-sec-2
-{
+#home-sec-2 {
     text-align: center;
 }
 
-#footer
-{
+#footer {
     text-align: center;
     color: white;
     height: 50px;
 }
 
-.text-color-primary
-{
+.text-color-primary {
     color: #e91e63;
 }
+
+/* container surrounding logo element at bottom of the page for click back
+to the top */
+.container2 {
+    display: flex;
+    justify-content: center;
+    background: #fcf0d0;
+}
+
+#scrollToTop:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+}
+
+/* Contributor.html css below */
+#contributors_list {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    gap: 40px;
+}
+
+

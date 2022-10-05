@@ -25,8 +25,8 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-</head>
-<body>
+
+<body class="d-flex flex-column">
     <div id="preloader"></div>
     <!--Header Section Start-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
@@ -43,37 +43,45 @@
                 <ul class="navbar-nav ms-auto">
                     <a href="index.html"> <button class="btn bg-gradient-primary mb-0">Home</button> </a>&nbsp;&nbsp;
                     <a href="about.html"> <button class="btn bg-gradient-primary mb-0">About</button> </a>&nbsp;&nbsp;
-                    <a href="./contributor.html"> <button class="btn bg-gradient-primary mb-0">Team</button> </a>&nbsp;&nbsp;
-                    <a href="feedback.html"> <button class="btn bg-gradient-primary mb-0">FeedBack</button> </a>&nbsp;&nbsp;
-                    <a href="https://github.com/akhil-aggarwal/cookie"> <button class="btn bg-gradient-primary mb-0"><i class="fa fa-brands fa-github"></i> &nbsp;Contribute</button> </a>
+                    <a href="./contributor.html"> <button class="btn bg-gradient-primary mb-0">Team</button>
+                    </a>&nbsp;&nbsp;
+                    <a href="https://github.com/akhil-aggarwal/cookie"> <button class="btn bg-gradient-primary mb-0"><i
+                                class="fa fa-brands fa-github"></i> &nbsp;Contribute</button> </a>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Header Section End -->
 
-
     <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
-    <section class="py-7" id="home-sec-1">
+    <section class="flex-grow-1 py-7" id="home-sec-1">
         <div class="container">
             <div class="row">
                 <h2 class="mb-5" id="startStr"></h2>
-                <div class="col-lg-6 my-auto">
+                <h3>What are Internet Cookies ?</h3>
+                <div class="col-lg-6 my-auto" style="text-align: justify">
 
-                    <h3>What are Internet Cookies ?</h3>
-                    <p class="pe-5">Cookies (also known as internet cookies, web cookies, browser cookies or HTTP
+                    
+                    <p>Cookies (also known as internet cookies, web cookies, browser cookies or HTTP
                         cookies) are small
                         pieces of information in the form of a text file, containing a string of letters and numbers.
                         This
                         file is sent from a website to the person’s browser where they get saved before going back to
                         the
                         same website.</p>
+                    <p>HTTP cookies are essential to the modern Internet but a vulnerability to your privacy. As a necessary part of web browsing, HTTP cookies help web developers give you more personal, convenient website visits. Cookies let websites remember you, your website logins, shopping carts and more. But they can also be a treasure trove of private info for criminals to spy on.
 
-                    <a href="about.html" class="text-primary icon-move-right">More about us
-                        <i class="fas fa-arrow-right text-sm ms-1"></i>
-                    </a>
+                        Guarding your privacy online can be overwhelming. Fortunately, even a basic understanding of cookies can help you keep unwanted eyes off your internet activity.
+                        
+                        While most cookies are perfectly safe, some can be used to track you without your consent. Worse, legitimate cookies can sometimes be spied upon if a criminal gets access.
+                        
+                        </p>
+
+                    <!-- <a href="javascript:;" class="text-primary icon-move-right">More about us -->
+                        <!-- <i class="fas fa-arrow-right text-sm ms-1"></i> -->
+                    <!-- </a> -->
                 </div>
-                <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
+                <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0 rightshift">
                     <div class="p-3 info-horizontal">
                         <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
                             <i class="fa fa-history opacity-10"></i>
@@ -108,7 +116,7 @@
     <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
 
     <!--Cookie Form Section Start-->
-    <section class="py-7" id="home-sec-2">
+    <!-- <section class="py-7" id="home-sec-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -127,14 +135,14 @@
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic mb-4">
                                                         <label class="form-label">First Name</label>
-                                                        <input id="fNameInput" class="form-control" required type="text">
+                                                        <input id="fNameInput" class="form-control" type="text">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic">
                                                         <label class="form-label">Last Name</label>
                                                         <input id="lNameInput" type="text" class="form-control"
-                                                            placeholder="" aria-label="Last Name..." required>
+                                                            placeholder="" aria-label="Last Name...">
                                                     </div>
                                                 </div>
                                             </div>
@@ -144,21 +152,22 @@
                                                     <div class="input-group input-group-dynamic mb-4">
                                                         <label class="form-label">E-Mail</label>
                                                         <input id="emailInput" class="form-control"
-                                                            aria-label="Email..." type="email" required>
+                                                            aria-label="Email..." type="email">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ps-2">
                                                     <div class="input-group input-group-dynamic">
                                                         <label class="form-label">Age</label>
                                                         <input id="ageInput" type="number" class="form-control"
-                                                            placeholder="" min="0" aria-label="Age..." required>
+                                                            placeholder="" aria-label="Age...">
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <button id="submitCookieData" class="btn bg-gradient-primary w-50 mt-4" type="submit">Submit</button>
+                                                    <input type="button" value="Submit" onclick="cookieFunction()"
+                                                        id="submitCookieData" class="btn bg-gradient-primary w-50 mt-4">
                                                 </div>
                                             </div>
                                         </div>
@@ -171,10 +180,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Cookie Form Section End-->
 
-    <section class="py-7" id="home-sec-1">
+    <!-- <section class="py-7" id="home-sec-1">
         <div class="container">
             <div class="row">
                 <h2 class="mb-3" id="textFormFilled"></h2>
@@ -183,8 +192,10 @@
                 <h2 class="mb-3"><span class="text-color-primary" id="resultName"></span> Hope you have <br>understood
                     what has
                     changed!</h2>
-                <h4 class="mb-5">Here's some conclusions made from the data you submitted.</h4>
-                <div class="col-lg-6 py-3">
+
+                <h4 class="mb-6">Here's some conclusions made from the data you submitted.</h4>
+                <div class="col-lg-6 ">
+
                     <button type="button" class="btn btn-primary m-2">
                         <span>First Name : <span id="btnFirstName"></span></span>
                     </button>
@@ -195,18 +206,15 @@
                     <button type="button" class="btn btn-primary m-2">
                         <span>Email : <span id="btnEmail"></span></span>
                     </button>
-                    <br />
-                    <button type="button" class="btn btn-primary m-2 my-3 w-50" onclick="resetCookies()">
-                        Reset Cookies!
-                    </button>
+
                 </div>
-                <div class="col-lg-6">
-                    <div class="info-horizontal m-2 py-3">
+                <div class="col-lg-6 0 ps-lg-0 ps-0">
+                    <div class=" info-horizontal">
                         <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
                             <i class="fa fa-graduation-cap opacity-10"></i>
                         </div>
                         <div class="description ps-3">
-                            <p class="mb-0" id="adultMessage"> Yes, you are Eligible to make your PAN & Voter
+                            <p class="mb-0" id="adultMessage"> Yes, you are Edigible to make your PAN & Voter
                                 Card.<br>Go ahead and click
                                 the button below.</p>
                         </div>
@@ -225,16 +233,19 @@
                             </a>
                         </div>
                     </div>
+
+
                 </div>
+
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!--Footer Section Start-->
+     <!--Footer Section Start-->
   
-      <!-- adding logo with function of being able to be clicked on and go back to the top of the page -->
+      <!-- logo div -->
       <div class ="container2">
-        <img src="assets/img/1664714443.jpg" alt="cookie logo" style="width: 100px" id="scrollToTop">
+        <img src="assets/img/logo.png" alt="cookie logo" style="width: 100px" id="scrollToTop">
      </div>
     <!-- logo div ends  --> 
 
