@@ -53,3 +53,13 @@ to the top */
     position: fixed;
     width: 100vw;
 }
+
+/* Contributor.html css below */
+#contributors_list {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    gap: 40px;
+}
