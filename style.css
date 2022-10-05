@@ -59,7 +59,7 @@ to the top */
     width: 85%;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;
     gap: 40px;
 }

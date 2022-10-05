@@ -8,7 +8,7 @@ async function getContributors() {
     var data = await res.json();
 
     data.forEach((contributor) => {
-        document.getElementById("contributors_list").innerHTML += '<div class="card" style="width: 17rem;border-radius:15px;box-shadow:0px 0px 10px 1px;"><img src=' + contributor.avatar_url + 'class= "card-img-top" style="margin:0px !important;padding:0px !important;border-radius:15px;"><div class="card-body"><a href="' + contributor.html_url + '" target="blank"><h5 class="card-title" style="text-align:center;">' + contributor.login +'</h5></a></div></div >'
+        document.getElementById("contributors_list").innerHTML += '<div class="card" style="width: 15rem;border-radius:15px;box-shadow:0px 0px 10px 1px;"><img src=' + contributor.avatar_url + 'class= "card-img-top" style="margin:0px !important;padding:0px !important;border-radius:15px;"><div class="card-body"><a href="' + contributor.html_url + '" target="blank"><h5 class="card-title" style="text-align:center;">' + contributor.login +'</h5></a></div></div >'
     });
 }
 getContributors();
