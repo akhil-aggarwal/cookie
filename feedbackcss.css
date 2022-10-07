@@ -42,7 +42,7 @@ html, body {
 
 .contact-form-container {
     /* border:2px solid #e91e63; */
-    width: 60%;
+    width: 40%;
     margin: 100px auto;
 }
 .contact-form-container h1{
@@ -91,7 +91,7 @@ html, body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     color: white;
-    background-color: #9a3f3f;
+    background-color: #e91e63;
     border: none;
     border-radius: 10px;
 }
@@ -101,7 +101,7 @@ html, body {
    
 }
 .submit-btn button:hover {
-    background-color: #563434;
+    background-color: #e91e63;
 }
 
 
