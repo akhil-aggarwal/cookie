@@ -1,7 +1,6 @@
 const _printData = [];
 
 function cookieFunction(e) {
- 
   document.activeElement.blur();
 
   Cookies.set("fName", document.getElementById("fNameInput").value);
@@ -9,7 +8,6 @@ function cookieFunction(e) {
   Cookies.set("email", document.getElementById("emailInput").value);
   Cookies.set("age", document.getElementById("ageInput").value);
   setValues();
-  
 }
 
 function setValues() {
@@ -23,11 +21,11 @@ function setValues() {
 
 function resetCookies() {
   let remove = confirm("Remove all the cookies?");
-  if(remove){
-    Cookies.remove('fName', { path: '/' });
-    Cookies.remove('lName', { path: '/' });
-    Cookies.remove('email', { path: '/' });
-    Cookies.remove('age', { path: '/' });
+  if (remove) {
+    Cookies.remove("fName", { path: "/" });
+    Cookies.remove("lName", { path: "/" });
+    Cookies.remove("email", { path: "/" });
+    Cookies.remove("age", { path: "/" });
     location.reload();
   }
 }
@@ -47,7 +45,7 @@ function printValues(_printData) {
       document.getElementById("adultMessage").innerHTML =
         "You are not 18. Please wait for " +
         remYears +
-        " years, <br> to make your Pan & Voter Card.";
+        " years, <br> to make your Pan Card, Voter Card & Driving License.";
       document.getElementById("adultSection").style.visibility = "hidden";
     } else {
       document.getElementById("adultSection").style.visibility = "visible";
