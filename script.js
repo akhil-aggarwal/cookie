@@ -80,3 +80,11 @@ function goingUp() {
 document
   .getElementById("contact-form")
   .addEventListener("submit", cookieFunction);
+
+//changing theme
+document.getElementById("orange").onclick = () =>{
+  document.getElementById("theme").href = "assets/css/material-kit_orange.min.css";
+}
+document.getElementById("red").onclick = () =>{
+  document.getElementById("theme").href = "assets/css/material-kit.min.css";
+}

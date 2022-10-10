@@ -8,6 +8,30 @@
     z-index: 10;
 }
 
+#red {
+    color: #e91e63;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    right: 15px;
+    width: 70px;
+    height: 100px;
+}
+
+#orange {
+    color: #EC7D10;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    right: 15px;
+    width: 70px;
+    height: 80px;
+}
+
+#red:hover, #orange:hover {
+    cursor: pointer;
+}
+
 html, body {
     scroll-behavior: smooth;
     min-height: 100vh;
