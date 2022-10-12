@@ -15,7 +15,7 @@
     bottom: 0;
     right: 15px;
     width: 70px;
-    height: 100px;
+    height: 120px;
 }
 
 #orange {
@@ -25,10 +25,18 @@
     bottom: 0;
     right: 15px;
     width: 70px;
+    height: 100px;
+}
+#blue {
+    color: #0a66c2;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    right: 15px;
+    width: 70px;
     height: 80px;
 }
-
-#red:hover, #orange:hover {
+#red:hover, #orange:hover, #blue:hover {
     cursor: pointer;
 }
 
