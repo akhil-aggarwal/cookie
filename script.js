@@ -1,3 +1,14 @@
+jQuery(document).ready(function() {
+    jQuery('.toggle').click(function() {
+        jQuery('body').toggleClass('day');
+        jQuery('body').toggleClass('night');
+        jQuery('nav').toggleClass('day');
+        jQuery('nav').toggleClass('night');
+
+    });
+
+});
+
 const _printData = [];
 
 function cookieFunction(e) {
